@@ -5,7 +5,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 const Stack = createNativeStackNavigator();
 
-// 🏠 Главный экран
+//  Главный экран
 function HomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
@@ -27,7 +27,7 @@ function HomeScreen({ navigation }) {
   );
 }
 
-// 🍳 Экран категории
+//  Экран категории
 function CategoryScreen({ route, navigation }) {
   const { type } = route.params;
 
@@ -47,7 +47,7 @@ function CategoryScreen({ route, navigation }) {
   );
 }
 
-// 📖 Экран рецепта
+//  Экран рецепта
 function RecipeScreen({ route }) {
   const { name } = route.params;
 
@@ -65,7 +65,7 @@ function RecipeScreen({ route }) {
   );
 }
 
-// 🚀 Навигация
+//  Навигация
 export default function App() {
   return (
     <NavigationContainer>
