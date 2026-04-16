@@ -197,11 +197,11 @@ recipeTitle: {
   fontWeight: 'bold',
   textAlign: 'center',
   marginTop: 60,
-  marginBottom: 20, // 🔥 отступ от слайдера
+  marginBottom: 20, //  отступ от слайдера
 },
 
 slider: {
-  marginBottom: 20, // 🔥 отступ перед текстом
+  marginBottom: 20, //  отступ перед текстом
 },
 
 description: {
