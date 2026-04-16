@@ -21,7 +21,7 @@ const Stack = createNativeStackNavigator();
 const { width } = Dimensions.get('window');
 
 
-// 🔥 Splash Screen
+//  Splash Screen
 function SplashScreen({ navigation }) {
   const fadeAnim = useRef(new Animated.Value(0)).current;
 
@@ -47,7 +47,7 @@ function SplashScreen({ navigation }) {
 }
 
 
-// 🔐 Login
+//  Login
 function LoginScreen({ navigation }) {
   const [login, setLogin] = useState('');
   const [password, setPassword] = useState('');
@@ -88,7 +88,7 @@ function LoginScreen({ navigation }) {
 }
 
 
-// 📝 Register
+//  Register
 function RegisterScreen({ navigation }) {
   const [login, setLogin] = useState('');
   const [password, setPassword] = useState('');
@@ -132,7 +132,7 @@ function RegisterScreen({ navigation }) {
 }
 
 
-// 🏠 Home
+//  Home
 function HomeScreen({ navigation }) {
   return (
     <View style={styles.screen}>
@@ -154,7 +154,7 @@ function HomeScreen({ navigation }) {
 }
 
 
-// 🍳 Category
+//  Category
 function CategoryScreen({ route, navigation }) {
   const { type } = route.params;
 
@@ -264,7 +264,7 @@ export default function App() {
 }
 
 
-// 🎨 Стили
+//  Стили
 const styles = StyleSheet.create({
   center: {
     flex: 1,
